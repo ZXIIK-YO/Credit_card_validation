@@ -72,13 +72,13 @@ button:hover {
     color: #333;
 }
 
-/* Add this CSS to hide the icons by default and style them */
+/* Hide the icons by default and style them */
 .icon {
     text-align: center;
     margin-top: 20px;
 }
 
-/* CSS to center the SVG within its container */
+/* Center the SVG within its container */
 .icon {
     display: flex;
     justify-content: center;
@@ -86,7 +86,7 @@ button:hover {
     height: 100%;
 }
 
-/* Optional: Add a background color to the circle */
+/* Add a background color to the circle */
 .icon svg circle {
     fill: red;
 }
