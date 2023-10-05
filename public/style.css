@@ -1,0 +1,92 @@
+/* CSS styling for the credit card validation form */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    text-align: left;
+    margin: 0 auto; /* Center the card horizontally */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    margin-right: 10px; /* Add right margin to create space between input fields */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#validationResult {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Add this CSS to hide the icons by default and style them */
+.icon {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* CSS to center the SVG within its container */
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Optional: Add a background color to the circle */
+.icon svg circle {
+    fill: red;
+}
